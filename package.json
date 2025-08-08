@@ -1,0 +1,31 @@
+{
+    "name": "mapbox-3d-tiles-demos",
+    "version": "1.1.0",
+    "author": "Jianshun Yang",
+    "license": "MIT",
+    "description": "demos for mapbox-3d-tiles : https://github.com/yangjs6/mapbox-3d-tiles",
+    "main": "index.js",
+    "scripts": {
+        "dev:digital-twin-park": "pnpm --filter digital-twin-park dev"
+    },
+    "keywords": [
+        "mapbox-gl",
+        "3dtiles",
+        "3d-tiles-renderer",
+        "threejs",
+        "digital-twin",
+        "数字孪生"
+    ],
+    "packageManager": "pnpm@10.14.0",
+    "dependencies": {
+        "mapbox-3d-tiles": "^1.1.0",
+        "mapbox-gl": "^3.10.0",
+        "three": ">=0.173.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-vue": "^5.0.4",
+        "typescript": "^5.9.2",
+        "vite": "^6.2.0",
+        "vue": "^3.5.18"
+    }
+}

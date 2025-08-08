@@ -1,0 +1,88 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.markerBox {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.textBox {
+  width: auto;
+  border: 1.5px solid #e4a530;
+  color: #fff;
+  opacity: 1;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 16px;
+  background-color: #2f3741;
+  text-align: center;
+  border-radius: 25px;
+}
+
+.imageBox {
+  width: 114px;
+  height: 80px;
+  background: url(./assets/images/ui/poi5.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center 0;
+}
+
+.closeVideo {
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border: solid 1px;
+  border-radius: 2px;
+  background: url(./assets/images/close.png);
+  /* background-color: #244268; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center 0;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+#cameraInfo {
+  cursor: pointer;
+}
+
+.cameraClass {
+  cursor: pointer;
+}
+
+.markerDevice {
+  z-index: 1000 !important;
+}
