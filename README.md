@@ -1,5 +1,14 @@
+git 拉取说明：
+由于项目中上传了大于 100M 的资源文件，直接使用 git clone 无法拉取完整代码，需要先安装 git lfs 。
+不过这样会导致 git clone 速度慢，后续考虑将资源文件托管到其他平台。
+
+```
+git lfs install        # 只需一次，全局安装 lfs
+git clone https://github.com/yangjs6/mapbox-3d-tiles-demos.git  # 拉取完整代码
+```
 
 
+---
 <h3 align="center">mapbox-3d-tiles-demos</h3>
 
 ---
